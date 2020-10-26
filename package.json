@@ -1,0 +1,6 @@
+{
+  "name": "bug-tsc-implements",
+  "scripts": {
+    "typegen": "tsc --emitDeclarationOnly --declarationDir dist/types"
+  }
+}
