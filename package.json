@@ -1,6 +1,9 @@
 {
   "name": "bug-tsc-implements",
   "scripts": {
-    "typegen": "tsc --emitDeclarationOnly --declarationDir dist/types"
+    "typegen": "./node_modules/.bin/tsc --emitDeclarationOnly --declarationDir dist/types"
+  },
+  "dependencies": {
+    "typescript": "4.1.0-dev.20201026"
   }
 }
